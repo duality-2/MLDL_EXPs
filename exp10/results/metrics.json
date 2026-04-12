@@ -1,0 +1,26 @@
+{
+    "Noisy Images": {
+        "MSE": 0.11548341613274056,
+        "MAE": 0.20400116761134343
+    },
+    "FC Autoencoder": {
+        "MSE": 0.017700379714369774,
+        "MAE": 0.048624008893966675,
+        "Improvement": 84.6727951881642,
+        "Mean Per-Sample Improvement": 84.64271370172145,
+        "Std Per-Sample Improvement": 6.913899335503217
+    },
+    "CNN Autoencoder": {
+        "MSE": 0.11395794153213501,
+        "MAE": 0.13252092897891998,
+        "Improvement": 1.320946895831448,
+        "Mean Per-Sample Improvement": 0.8633101423299471,
+        "Std Per-Sample Improvement": 36.6300406175749
+    },
+    "Training Info": {
+        "Epochs FC": 29,
+        "Epochs CNN": 9,
+        "Noise Factor": 0.5,
+        "FC Encoding Dim": 32
+    }
+}
